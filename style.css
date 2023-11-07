@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+}
+
+/*! //////////// **/
+/*? //// NAV /// **/
+/*! //////////// **/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color:rgb(206, 154, 207);
+  height: 80px;
+  padding-inline: 40px;
+  color:black;
+}
+.header-title-box {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    font-size: x-large;
+}
+.header-title {
+    align-items: center;
+}
+.logo {
+    height: 80px;
+    width: 100px;   
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-items {
+  display: flex; 
+  gap: 10px;
+  align-items: center;
+}
+
+/*! HEADER END **/
+/*? BODY START **/
+/*! SECTION 1  **/
+
+body {
+  background-color: rgb(149, 111, 133);
+  color: rgb(51, 2, 59);
+  min-height: 100vh;
+}
+.div-box {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  border-color: black;
+  align-items: center;
+  margin: 5px;
+  padding: 10px;
+}
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stageimage {
+  height:325px;
+  width: 200px;
+}
+.stageimage img {
+  height:100%;
+  width: 100%;
+}
+
+/*! ///////// **/
+/*? SECTION 2 **/
+/*! ///////// **/
+
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stageimage2 {
+  margin: 5px;
+  height: 325px;
+  width: 210px;
+}
+.stageimage2 img {
+  height: 100%;
+  width: 100%;
+}
+/*! END SECTION 2 **/
+/*? ///////////// **/
+/*! / PROJECTS  / **/
+
+.projects {
+  width: 645px;
+  height: 800px;
+  border: solid black;
+  margin: 5px;
+  padding: 10px;
+}
+
+.gudsforlattimage {
+  height: 200;
+  width: 130;
+}
+
+.gudsforlattimage img {
+  height: 100%;
+  width: 100%;
+}
