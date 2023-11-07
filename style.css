@@ -40,13 +40,21 @@ nav {
 
 /*! HEADER END **/
 /*? BODY START **/
-/*! SECTION 1  **/
 
 body {
   background-color: rgb(149, 111, 133);
   color: rgb(51, 2, 59);
   min-height: 100vh;
+
 }
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*! SECTION 1  **/
 .div-box {
   height: 300px;
   width: 500px;
@@ -57,6 +65,7 @@ body {
   padding: 10px;
 }
 .section1 {
+  width: 98vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,6 +84,7 @@ body {
 /*! ///////// **/
 
 .section2 {
+  width: 98vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,7 +104,9 @@ body {
 /*! / PROJECTS  / **/
 
 .projects {
-  width: 645px;
+  justify-content: center;
+  align-items: center;
+  width: 695px;
   height: 800px;
   border: solid black;
   margin: 5px;
