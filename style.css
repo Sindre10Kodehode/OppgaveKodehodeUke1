@@ -13,6 +13,8 @@ nav {
   height: 80px;
   padding-inline: 40px;
   color:black;
+  box-shadow: 1px 1px 7px 1px;
+  margin-bottom: 5px;
 }
 .header-title-box {
     display: flex;
@@ -43,9 +45,10 @@ nav {
 
 body {
   background-color: rgb(149, 111, 133);
-  color: rgb(51, 2, 59);
+  color: rgb(14, 0, 16);
   min-height: 100vh;
-
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 main {
   display: flex;
